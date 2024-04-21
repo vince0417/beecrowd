@@ -10,3 +10,4 @@ int main()
     printf("NUMBER = %d\nSALARY = U$ %.2f\n", numero, salario);
     return 0;
 }
+
