@@ -43,3 +43,4 @@ int main() {
     printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", hora, minuto);
     return 0;
 }
+
