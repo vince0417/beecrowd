@@ -3,7 +3,7 @@ O Beecrowd é uma plataforma online conhecida por sediar competições de algori
 
 ##
 
-### Compilação e execução usando o G++/GCC
+### Compilação e execução usando o g++/gcc
 ```bash
 g++ arquivo.cpp
 ./a.out
