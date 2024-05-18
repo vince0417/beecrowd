@@ -8,7 +8,7 @@ O Beecrowd é uma plataforma online conhecida por sediar competições de algori
 g++ arquivo.cpp
 ./a.out
 ```
-Em caso de arquivo com extensão .c, basta editar os passos a cima substituindo o g++ por gcc e trocar a extensão .cpp por .c.
+Em caso de arquivo com extensão .c, basta editar os passos a cima substituindo o g++ por gcc e trocar a extensão para .c.
 
 ### Fluxo básico com GIT
 ```bash
