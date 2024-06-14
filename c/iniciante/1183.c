@@ -1,0 +1,31 @@
+//Acima da Diagonal Principal
+#include <stdio.h>
+
+int main()
+{
+    int cont = 0;
+    float matriz[12][12], soma = 0;
+    char op;
+    scanf("%c", &op);
+    
+    for (int l = 0; l < 12; l++)
+    {
+        for (int c = 0; c < 12; c++)
+        {
+            scanf("%f", &matriz[l][c]);
+
+            if (c > l)
+            {
+                soma += matriz[l][c];
+                cont++;
+            }
+            
+        }
+        
+    }
+
+    if (op == 'S') printf("%.1f\n", soma);
+    else printf("%.1f\n", (soma/cont));
+    
+    return 0;
+}
