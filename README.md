@@ -1,18 +1,128 @@
-# beecrowd
-O Beecrowd é uma plataforma online conhecida por sediar competições de algoritimos e programação competitiva, onde os participantes podem resolver problemas de lógica e algoritimos para aprimorar suas habilidades. Com isso. este repositório é destinado à guardar problemas resolvidos, referentes a esta plataforma.
+### BeeCrowd
 
-##
+Este repositório contém códigos fonte desenvolvidos por mim para resolver problemas da plataforma BeeCrowd. Abaixo está uma documentação detalhada das linguagens de programação C e C++, que foram utilizadas para implementar as soluções.
 
-### Compilação e execução usando o g++/gcc
-```bash
-g++ arquivo.cpp
-./a.out
+---
+
+### Linguagem C
+
+#### Tipos Primitivos
+
+A linguagem C possui os seguintes tipos primitivos:
+
+- **int**: Inteiro com sinal.
+- **char**: Caractere.
+- **float**: Ponto flutuante de precisão simples.
+- **double**: Ponto flutuante de precisão dupla.
+- **void**: Tipo sem valor.
+
+#### Operadores Lógicos
+
+Os operadores lógicos em C são:
+
+- **&& (E lógico)**: Retorna verdadeiro se ambas as expressões forem verdadeiras.
+- **|| (OU lógico)**: Retorna verdadeiro se pelo menos uma das expressões for verdadeira.
+- **! (NÃO lógico)**: Inverte o valor de verdade de uma expressão.
+
+#### Funções
+
+As funções em C são definidas da seguinte maneira:
+
+```c
+tipo_retorno nome_funcao(tipo_parametro1 param1, tipo_parametro2 param2, ...) {
+    // Corpo da função
+    return valor_de_retorno;
+}
 ```
-Em caso de arquivo com extensão .c, basta editar os passos a cima substituindo o g++ por gcc e trocar a extensão para .c.
 
-### Fluxo básico com GIT
-```bash
-git add arquivo.cpp
-git commit -m "O que foi feito"
-git push
+#### Exemplo de Uso
+
+Aqui está um exemplo simples de função em C:
+
+```c
+#include <stdio.h>
+
+// Função para calcular o quadrado de um número
+int calcular_quadrado(int x) {
+    return x * x;
+}
+
+int main() {
+    int num = 5;
+    int resultado = calcular_quadrado(num);
+    
+    printf("O quadrado de %d é %d\n", num, resultado);
+    
+    return 0;
+}
 ```
+
+---
+
+### Linguagem C++
+
+#### Tipos Primitivos
+
+A linguagem C++ inclui os tipos primitivos do C e adiciona:
+
+- **bool**: Valor booleano verdadeiro ou falso.
+- **string**: O std::string foi criado como uma alternativa ao clássico array de caracteres em estilo C.
+
+#### Operadores Lógicos
+
+Além dos operadores do C, C++ também inclui:
+
+- **!**: NÃO lógico.
+- **!=**: Diferente.
+- **and, or, not**: Operadores lógicos equivalentes a &&, ||, !, respectivamente.
+
+#### Funções
+
+As funções em C++ são semelhantes às de C, mas podem ter sobrecarga e argumentos padrão:
+
+```cpp
+tipo_retorno nome_funcao(tipo_parametro1 param1 = valor_padrao1, tipo_parametro2 param2 = valor_padrao2, ...) {
+    // Corpo da função
+    return valor_de_retorno;
+}
+```
+
+#### Exemplo de Uso
+
+Aqui está um exemplo simples de função em C++:
+
+```cpp
+#include <iostream>
+
+// Função para calcular o cubo de um número
+int calcular_cubo(int x) {
+    return x * x * x;
+}
+
+int main() {
+    int num = 3;
+    int resultado = calcular_cubo(num);
+    
+    std::cout << "O cubo de " << num << " é " << resultado << std::endl;
+    
+    return 0;
+}
+```
+
+---
+
+### Estrutura do Repositório
+
+- **/c/**: Pasta contendo a solução dos problemas em C do BeeCrowd.
+- **/c++/**: Pasta contendo a solução dos problemas em C++ do BeeCrowd.
+- **README.md**: Este arquivo, contendo a documentação detalhada das linguagens utilizadas e uma breve descrição dos problemas resolvidos.
+
+---
+
+### Autor
+
+Desenvolvido por [Vicente Rodrigues].
+
+---
+
+Esta documentação fornece uma visão básica das linguagens C e C++ e como elas foram utilizadas neste repositório para resolver problemas da plataforma BeeCrowd.
