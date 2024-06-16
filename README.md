@@ -121,7 +121,7 @@ int main() {
 
 ### Autor
 
-Desenvolvido por [Vicente Rodrigues].
+Desenvolvido por Vicente Rodrigues.
 
 ---
 
