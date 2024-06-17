@@ -1,6 +1,6 @@
-### BeeCrowd
+### Beecrowd
 
-Este repositório contém códigos fonte desenvolvidos por mim para resolver problemas da plataforma BeeCrowd. Abaixo está uma documentação detalhada das linguagens de programação C e C++, que foram utilizadas para implementar as soluções.
+Este repositório contém códigos fonte desenvolvidos por mim para resolver problemas da plataforma Beecrowd. Abaixo está uma documentação detalhada das linguagens de programação C e C++, que foram utilizadas para implementar as soluções.
 
 ---
 
@@ -125,4 +125,4 @@ Desenvolvido por Vicente Rodrigues.
 
 ---
 
-Esta documentação fornece uma visão básica das linguagens C e C++ e como elas foram utilizadas neste repositório para resolver problemas da plataforma BeeCrowd.
+Esta documentação fornece uma visão básica das linguagens C e C++ e como elas foram utilizadas neste repositório para resolver problemas da plataforma Beecrowd.
