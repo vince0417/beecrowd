@@ -113,8 +113,8 @@ int main() {
 
 ### Estrutura do Repositório
 
-- **/c/**: Pasta contendo a solução dos problemas em C do BeeCrowd.
-- **/c++/**: Pasta contendo a solução dos problemas em C++ do BeeCrowd.
+- **/c++/**: Pasta contendo a solução dos problemas em C++ do Beecrowd.
+- **/c/**: Pasta contendo a solução dos problemas em C do Beecrowd.
 - **README.md**: Este arquivo, contendo a documentação detalhada das linguagens utilizadas e uma breve descrição dos problemas resolvidos.
 
 ---
