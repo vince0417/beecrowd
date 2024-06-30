@@ -12,12 +12,7 @@ int main()
         if (n2 <= 0) while (n2 <= 0) scanf("%i", &n2);
     }
 
-    int soma = 0;
-    for (int i = 0; i < n2; i++)
-    {
-        soma += (n1+i);
-    }
-    
+    int soma = (n2*n1)+((n2*(n2-1))/2);//Utilizado PA
     printf("%i\n", soma);
     return 0;
 }
