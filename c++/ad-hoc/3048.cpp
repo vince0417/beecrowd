@@ -22,4 +22,3 @@ int main ()
     cout << resposta << '\n';
     return 0;
 }
-
