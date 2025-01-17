@@ -117,7 +117,7 @@ Enquanto resolvia os problemas me deparei com diversas situações nas quais nã
 aqui algumas soluções para determinados problemas, que aprendi nas várias das minhas pesquisas, principalmente, nos fóruns.
 
 - Como converter caractere para int.
-
+Claro, seria bom você verificar se o caractere é um dígito antes, a não ser que possa garantir que seja.
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
