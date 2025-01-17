@@ -1,6 +1,6 @@
 ### Beecrowd
 
-Este repositório contém códigos fonte desenvolvidos por mim para resolver problemas da plataforma Beecrowd. Abaixo está uma documentação detalhada das linguagens de programação C e C++, que foram utilizadas para implementar as soluções.
+Este repositório contém códigos fonte desenvolvidos por mim para resolver problemas da plataforma Beecrowd. Abaixo está uma documentação básica detalhada das linguagens de programação C e C++, que foram utilizadas para implementar as soluções.
 
 ---
 
@@ -111,6 +111,27 @@ int main() {
 
 ---
 
+### Anotações 📝
+
+Enquanto resolvia os problemas me deparei com diversas situações nas quais não sabia como resolver tal. Então, resolvi deixar registrado 
+aqui algumas soluções para determinados problemas, que aprendi nas várias das minhas pesquisas, principalmente, nos fóruns.
+
+- Como converter caractere para int.
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    char letra = '1';
+    int num = letra - '0';
+    cout << num << '\n';
+    return 0;
+}
+```
+
+---
+
 ### Estrutura do Repositório
 
 - **/c++/**: Pasta contendo a solução dos problemas em C++ do Beecrowd.
@@ -121,7 +142,7 @@ int main() {
 
 ### Autor
 
-Desenvolvido por Vicente Rodrigues.
+Vicente Rodrigues.
 
 ---
 
