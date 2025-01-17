@@ -124,8 +124,7 @@ using namespace std;
 
 int main(){
     char letra = '1';
-    int num = letra - '0';
-    cout << num << '\n';
+    cout << (letra - '0') << '\n';
     return 0;
 }
 ```
