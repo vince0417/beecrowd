@@ -133,8 +133,8 @@ int main(){
 ---
 
 ### Estrutura do Repositório
-- **Observe**: O comentário na primaira linha de cada problema é nome do mesmo e, o número como foi salvo o arquivo é o número do problema na
-plataforma Beecrowd. Basicamente, o nome de cada pasta, problema e numero de arquivo é pra facilitar a localização de cada um na plataforma. 
+- **Observe**: O comentário na primeira linha de cada problema é o nome do mesmo e, o número como foi salvo o arquivo é o número do problema na
+plataforma Beecrowd. Basicamente, o nome de cada pasta, problema e número de arquivo é pra facilitar a localização de cada um na plataforma. 
 - **/c++/**: Pasta contendo a solução dos problemas em C++ do Beecrowd.
 - **/c/**: Pasta contendo a solução dos problemas em C do Beecrowd.
 - **README.md**: Este arquivo, contendo a documentação detalhada das linguagens utilizadas e uma breve descrição dos problemas resolvidos.
