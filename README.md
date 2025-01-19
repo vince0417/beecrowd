@@ -116,8 +116,7 @@ int main() {
 Enquanto resolvia os problemas me deparei com diversas situações nas quais não sabia como resolver tal. Então, resolvi deixar registrado 
 aqui algumas soluções para determinados problemas, que aprendi nas várias das minhas pesquisas, principalmente, nos fóruns.
 
-- Como converter caractere para int.
-
+- **Como converter caractere para int.**
 Claro, seria bom você verificar se o caractere é um dígito antes, a não ser que possa garantir que seja.
 ```cpp
 #include <bits/stdc++.h>
@@ -133,7 +132,8 @@ int main(){
 ---
 
 ### Estrutura do Repositório
-
+- **Observe**: O comentário na primaira linha de cada problema é nome do mesmo e, o número como foi salvo o arquivo é o número do problema na
+plataforma Beecrowd. Basicamente, o nome de cada pasta, problema e numero de arquivo é pra facilitar a localização de cada um na plataforma. 
 - **/c++/**: Pasta contendo a solução dos problemas em C++ do Beecrowd.
 - **/c/**: Pasta contendo a solução dos problemas em C do Beecrowd.
 - **README.md**: Este arquivo, contendo a documentação detalhada das linguagens utilizadas e uma breve descrição dos problemas resolvidos.
