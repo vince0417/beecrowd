@@ -153,9 +153,11 @@ int main()
 
 Talvez, você aí não conheça algumas coisas usadas nos algoritimos, então, aqui, eu explico o que possa gerar dúvidas.
 
-- **<bits/stdc++.h>**
+```cpp
+#include <bits/stdc++.h>
+```
 
-Usado em grande parte dos problemas deste repositório,**include <bits/stdc++.h>** é um arquivo de cabeçalho não padrão em C++ que inclui todos os outros arquivos de cabeçalho da biblioteca padrão. É frequentemente usado em competições de programação para evitar a necessidade de incluir manualmente todos os cabeçalhos necessários, mas pode aumentar o tempo de compilação e o tamanho do executável. 
+Usado em grande parte dos problemas deste repositório,**#include <bits/stdc++.h>** é um arquivo de cabeçalho não padrão em C++ que inclui todos os outros arquivos de cabeçalho da biblioteca padrão. É frequentemente usado em competições de programação para evitar a necessidade de incluir manualmente todos os cabeçalhos necessários, mas pode aumentar o tempo de compilação e o tamanho do executável. 
 
 
 
