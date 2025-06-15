@@ -130,6 +130,23 @@ int main(){
 }
 ```
 
+- **Como converter inteiro para string**
+
+Para converter um número inteiro para uma string em C++, a maneira mais simples e recomendada é usar a função std::to_string(). Essa função está disponível a partir do C++11 e faz parte da biblioteca <string>.
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int num{50};
+    string str = to_string(num);
+
+    cout << str << "\n";
+    return 0;
+}
+```
+
 ---
 
 ### Estrutura do Repositório
@@ -141,10 +158,10 @@ plataforma Beecrowd. Basicamente, o nome de cada pasta, problema e número de ar
 
 ---
 
-### Autor
+### Desenvolvido por:
 
 Vicente Rodrigues.
 
 ---
 
-Esta documentação fornece uma visão básica das linguagens C e C++ e como elas foram utilizadas neste repositório para resolver problemas da plataforma Beecrowd.
+Esta documentação fornece uma visão básica das linguagens C e C++(com maior foco em c++) e como elas foram utilizadas neste repositório para resolver problemas da plataforma Beecrowd.
