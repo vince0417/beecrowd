@@ -132,7 +132,7 @@ int main(){
 
 - **Como converter inteiro para string**
 
-Para converter um número inteiro para uma string em C++, a maneira mais simples e recomendada é usar a função std::to_string(). Essa função está disponível a partir do C++11 e faz parte da biblioteca <string>.
+Para converter um número inteiro para uma string em C++, a maneira mais simples e recomendada é usar a função std::to_string(). Essa função está disponível a partir do C++11 e faz parte da biblioteca string.
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
