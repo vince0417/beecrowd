@@ -132,7 +132,7 @@ int main(){
 
 - **Como converter inteiro para string**
 
-Para converter um número inteiro para uma string em C++, a maneira mais simples e recomendada é usar a função std::to_string(). Essa função está disponível a partir do C++11 e faz parte da biblioteca string.
+Para converter um número inteiro para uma string em C++, a maneira mais simples e recomendada é usar a função **std::to_string()**. Essa função está disponível a partir do C++11 e faz parte da biblioteca **<string>**.
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -147,6 +147,44 @@ int main()
 }
 ```
 
+- **Converter um caractere minúsculo em maiúsculo**
+
+Para converter um caractere minúsculo em maiúsculo em C++, você pode usar a função toupper() da biblioteca **<cctype>**. Essa função recebe um caractere como argumento e retorna o caractere correspondente em maiúsculo, se existir. 
+```cpp
+#include <iostream>
+#include <cctype>
+
+using namespace std;
+
+int main()
+{
+    char letra{'a'};
+    letra = toupper(letra);
+    cout << letra << "\n";
+    return 0;
+}
+```
+
+- **Como ordenar em ordem crescente os elementos de um vetor**
+
+Em C++, **sort** é a função usada para ordenar elementos em um intervalo, geralmente um vetor ou matriz. Ela faz parte da biblioteca padrão e é uma forma eficiente de ordenar dados, utilizando um algoritmo como o quicksort otimizado. 
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> lista{500, 1094, 342, 3435, 32, 23};
+    sort(lista.begin(), lista.end());
+
+    for (int i{}; i < lista.size(); ++i)
+        cout << lista.at(i) << " ";
+    
+    cout << "\n";
+    return 0;
+}
+
+```
 ---
 
 ### O que é?? 😱🧐
