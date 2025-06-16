@@ -149,7 +149,7 @@ int main()
 
 - **Converter um caractere minúsculo em maiúsculo**
 
-Para converter um caractere minúsculo em maiúsculo em C++, você pode usar a função toupper() da biblioteca **<cctype>**. Essa função recebe um caractere como argumento e retorna o caractere correspondente em maiúsculo, se existir. 
+Para converter um caractere minúsculo em maiúsculo em C++, você pode usar a função **toupper()** da biblioteca **<cctype>**. Essa função recebe um caractere como argumento e retorna o caractere correspondente em maiúsculo, se existir. 
 ```cpp
 #include <iostream>
 #include <cctype>
