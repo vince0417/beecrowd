@@ -185,6 +185,26 @@ int main()
 }
 
 ```
+
+- **Aritmética de caracteres**
+
+É aconselhável ter conhecimento da tabela ASCII.
+Para acessar uma letra específica do alfabeto, você pode usar a conversão de tipos ou a aritmética de caracteres. O caractere 'A' tem o valor ASCII 65, 'B' é 66, e assim por diante. Portanto, para obter a letra 'F', você pode adicionar 5 a 'A' ( 'A' + 5 ). Da mesma forma, 'a' tem o valor 97, 'b' é 98, e assim por diante. 
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char letra{'A'};
+    char soma = letra+5;
+    cout << "A letra " << letra << " + " << 5 << " é " << soma << " na tabela ASCII!\n";
+    
+    return 0;
+}
+
+//SAÍDA: A letra A + 5 é F na tabela ASCII!
+```
 ---
 
 ### O que é?? 😱🧐
