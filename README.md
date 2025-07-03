@@ -205,6 +205,23 @@ int main()
 
 //SAÍDA: A letra A + 5 é F na tabela ASCII!
 ```
+
+- **Converter um número inteiro negativo para positivo**
+
+Para isso usamos a função **abs()**, definida pelo cabeçalho **<stdlib.h>**. Esta função retorna o valor absoluto de um número inteiro. Em outras palavras isso significa que ela converte um número negativo em seu equivalente positivo, enquanto deixa números positivos ou zero inalterados.
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int num = -10;
+    num = abs(num);
+    cout << num << "\n";
+    return 0;
+}
+
+```
 ---
 
 ### O que é?? 😱🧐
@@ -217,6 +234,11 @@ Talvez, você aí não conheça algumas coisas usadas nos algoritimos, então, a
 
 Usado em grande parte dos problemas deste repositório,**#include <bits/stdc++.h>** é um arquivo de cabeçalho não padrão em C++ que inclui todos os outros arquivos de cabeçalho da biblioteca padrão. É frequentemente usado em competições de programação para evitar a necessidade de incluir manualmente todos os cabeçalhos necessários, mas pode aumentar o tempo de compilação e o tamanho do executável. 
 
+```cpp
+int num{};
+```
+
+Muitas vezes quando declarado uma variável, após o nome coloquei **{}**. Bem, quando faço isso, estou declarando a variável e inicializando com 0. É o mesmo que **int num = 0**. Observe: é usado apenas para inicializar, nunca para icrementar. 
 
 
 ---
