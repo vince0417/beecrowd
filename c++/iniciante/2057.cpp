@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int saida{}, viagem{}, fuso{};
-    cin >> saida >> viagem >> fuso; // Em sequência pegam hora de saída, tempo de viagem e fuso horário do destino.
+    cin >> saida >> viagem >> fuso; // Em sequencia pegam hora de saida, tempo de viagem e fuso horario do destino;
     
     if ((saida+viagem+fuso) >= 24)
         cout << (saida+viagem+fuso) - 24 << "\n";
