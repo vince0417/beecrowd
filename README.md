@@ -222,6 +222,33 @@ int main(){
 }
 
 ```
+
+- **Verificar se uma string está contida em outra**
+
+Utiliza-se a função **find()** da biblioteca **std::string**. Essa função retorna a posição da primeira ocorrência da substring na string principal, ou **std::string::npos** caso a substring não seja encontrada. Além de ser usado como valor de retorno, **npos** também pode ser usado como parâmetro para algumas funções de string, indicando que a operação deve se estender até o final da string. 
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+bool contem(const string& palavraUm, const string& palavraDois)
+{
+    return palavraUm.find(palavraDois) != string::npos;
+}
+
+int main()
+{
+    string palavraUm{"contem"};
+    string palavraDois{"conte"};
+
+    if (contem(palavraUm, palavraDois)) cout << "Sim!" << "\n";
+    else cout << "Não!" << "\n";
+
+    return 0;
+}
+// SAÍDA: Sim!
+```
+
 ---
 
 ### O que é?? 😱🧐
