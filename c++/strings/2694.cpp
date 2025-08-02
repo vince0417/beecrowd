@@ -26,7 +26,7 @@ int main()
 
 /*
     ostringstream é uma classe que permite escrever dados em um buffer de string.
-    << é usado para adicionar dados (neste caso, estamos concatenando os indices de "erro" à n1, n2 e n3).
+    << é usado para adicionar dados (neste caso, estamos concatenando os índices de "erro" à n1, n2 e n3).
     .str() retorna a string construída no ostringstream.
-    stoi converte string em inteiro, caro, se se tratar de dígitos.
+    stoi converte string em inteiro, claro, se estivermos lidando com dígitos.
 */
