@@ -167,7 +167,7 @@ int main()
 
 - **Como ordenar em ordem crescente os elementos de um vetor**
 
-Em C++, **sort** é a função usada para ordenar elementos em um intervalo, geralmente um vetor ou matriz. Ela faz parte da biblioteca padrão e é uma forma eficiente de ordenar dados, utilizando um algoritmo como o quicksort otimizado. 
+Em C++, **sort** é uma função usada para ordenar elementos em um intervalo, geralmente um vetor ou matriz. Ela faz parte da biblioteca padrão e é uma forma eficiente de ordenar dados, utilizando um algoritmo como o quicksort otimizado. 
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
