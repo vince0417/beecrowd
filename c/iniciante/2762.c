@@ -12,3 +12,5 @@ int main()
     }
     return 0;
 }
+
+//Aconteceu um pequeno engano, eu enviei este problema com a numeração errada, a certa é 2766;
