@@ -9,6 +9,8 @@ int main() {
         string registro;
         cin >> registro;
         string temp = registro.substr(0,2);
+
+        //Casos em que o registro do aluno é inválido;
         if (registro.length() < 20 || temp != "RA" || registro.find('0') == string::npos){
             cout << "INVALID DATA\n";
             continue;
