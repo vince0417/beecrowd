@@ -283,6 +283,8 @@ plataforma Beecrowd. Basicamente, o nome de cada pasta, problema e número de ar
 
 Vicente Rodrigues.
 
+
+
 ---
 
 Esta documentação fornece uma visão básica das linguagens C e C++(com maior foco em c++) e como elas foram utilizadas neste repositório para resolver problemas da plataforma Beecrowd.
