@@ -8,6 +8,7 @@ Este repositório contém códigos fonte desenvolvidos por mim para resolver pro
 
 #### Tipos Primitivos
 
+
 A linguagem C possui os seguintes tipos primitivos:
 
 - **int**: Inteiro com sinal.
