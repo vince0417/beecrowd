@@ -222,6 +222,7 @@ int main(){
     return 0;
 }
 
+
 ```
 
 - **Verificar se uma string está contida em outra**
