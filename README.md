@@ -19,6 +19,7 @@ A linguagem C possui os seguintes tipos primitivos:
 
 #### Operadores Lógicos
 
+
 Os operadores lógicos em C são:
 
 - **&& (E lógico)**: Retorna verdadeiro se ambas as expressões forem verdadeiras.
