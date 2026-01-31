@@ -11,6 +11,7 @@ Este repositório contém códigos fonte desenvolvidos por mim para resolver pro
 
 A linguagem C possui os seguintes tipos primitivos:
 
+
 - **int**: Inteiro com sinal.
 - **char**: Caractere.
 - **float**: Ponto flutuante de precisão simples.
